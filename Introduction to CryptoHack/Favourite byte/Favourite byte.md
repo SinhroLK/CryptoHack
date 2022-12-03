@@ -1,2 +1,2 @@
-
+Python script I wrote uses xor for every possible byte it could have been initially xored with(0-255). It also checks if the decripted data starts with "crypto" since that is the format the flag is in, and I don't want to check more than 200 string manually.
 crypto{0x10_15_my_f4v0ur173_by7e}
