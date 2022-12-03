@@ -1,0 +1,2 @@
+Wrote a python script which gave me the flag. The idea is to use the keys whose value you already know to find the values of the keys which you use xor on. You have the value of key1 and the value of xor when it is used on key1 and key2. You can xor that value again with key1 to get key2. Same story with finding key3. In the end you just xor the final expression with all 3 keys(you can use more than 2 arguments in the xor function) and you get the flag.
+crypto{x0r_i5_ass0c1at1v3}  
